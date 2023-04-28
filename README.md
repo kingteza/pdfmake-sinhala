@@ -1,5 +1,5 @@
 # pdfmake [![Node.js CI][githubactions_img]][githubactions_url] [![GitHub][github_img]][github_url] [![npm][npm_img]][npm_url] [![Bower][bower_img]][bower_url] [![Packagist][packagist_img]][packagist_url] [![CDNJS][cdnjs_img]][cndjs_url]
-
+## The PDFMake library has some issues when using Sinhala Fonts. In this package we have fixed those issues.
 [githubactions_img]: https://github.com/bpampuch/pdfmake/workflows/Node.js%20CI/badge.svg?branch=master
 [githubactions_url]: https://github.com/bpampuch/pdfmake/actions
 
