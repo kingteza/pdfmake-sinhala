@@ -64,7 +64,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/bpampuch/pdfmake.git"
+
+    "url": "git://github.com/kingteza/pdfmake-sinhala.git"
   },
   "keywords": [
     "pdf",
