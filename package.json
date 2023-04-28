@@ -1,7 +1,7 @@
 {
   "name": "@kingteza/pdfmake-sinhala",
   "version": "0.1.0",
-  "description": "Client/server side PDF printing in pure JavaScript",
+  "description": "The PDFMake library has some issues when using Sinhala Fonts. In this package we have fixed those issues. Client/server side PDF printing in pure JavaScript",
   "main": "js/index.js",
   "esnext": "src/index.js",
   "browser": "build/pdfmake.js",
