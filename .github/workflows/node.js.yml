@@ -28,7 +28,11 @@ jobs:
         node-version: ${{ matrix.node-version }}
 #     - name: npm install
 #     - run: npm test
+    - run: npm adduser --registry=https://registry.npmjs.org/
+      env:
+          NODE_AUTH_TOKEN: ${{secrets.NPM_AUTH_TOKEN_KINGTEZA}}
     - name: Publish
+      
       run: npm publish --access public
       env:
-          NODE_AUTH_TOKEN: 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
+          NODE_AUTH_TOKEN: ${{secrets.NPM_AUTH_TOKEN_KINGTEZA}}
