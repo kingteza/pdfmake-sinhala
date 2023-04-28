@@ -17,7 +17,7 @@ jobs:
       fail-fast: false
       matrix:
         os: [ubuntu-latest]
-        node-version: [14.x, 16.x, 18.x]
+        node-version: [16.x]
 
     steps:
     - name: Checkout
@@ -31,4 +31,4 @@ jobs:
     - name: Publish
       run: npm publish --access public
       env:
-          NODE_AUTH_TOKEN: ${{secrets.NPM_AUTH_TOKEN_KINGTEZA}}
+          NODE_AUTH_TOKEN: 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
